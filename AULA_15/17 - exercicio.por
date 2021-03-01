@@ -22,13 +22,17 @@ programa
 		escreva(primeiroTermo, ", ")
 		escreva(segundoTermo, ", ")
 
-		enquanto(contador <= 11) {
+		enquanto(contador <= n-2) {
 			proximoTermo = primeiroTermo + segundoTermo
 			primeiroTermo = segundoTermo
 			segundoTermo = proximoTermo
 	
-	
-			escreva(proximoTermo, ", ")
+			se(contador != n-2) {
+				escreva(proximoTermo, ", ")
+			}senao {
+				escreva(proximoTermo, ". ")
+			}
+			
 			contador++
 		}
 
@@ -38,12 +42,13 @@ programa
 		
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 336; 
+ * @POSICAO-CURSOR = 517; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
