@@ -22,7 +22,8 @@ programa
 		escreva(primeiroTermo, ", ")
 		escreva(segundoTermo, ", ")
 
-		enquanto(contador <= n-2) {
+		enquanto(contador <= n-2) { //quando o usuário solicita n termo, temos que descontar os termos já escritos na tela nas linhas 22 e 23
+			
 			proximoTermo = primeiroTermo + segundoTermo
 			primeiroTermo = segundoTermo
 			segundoTermo = proximoTermo
@@ -48,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 517; 
+ * @POSICAO-CURSOR = 623; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
