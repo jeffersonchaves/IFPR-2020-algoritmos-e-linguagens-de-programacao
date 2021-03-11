@@ -20,7 +20,6 @@ programa
 				escreva("numero inválido. Informe outro número: ")
 				leia(numeroInformado)			
 			} 
-			
 
 			se(i == 1){
 				menorValor = numeroInformado
@@ -53,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 388; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
